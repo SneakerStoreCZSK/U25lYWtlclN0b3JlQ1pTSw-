@@ -6,6 +6,12 @@
     <meta charset="UTF-8">
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="platformstyle.css" rel="stylesheet" type="text/css" media="all" />
+    <script>
+        var thissearch = window.location.search;
+        if (thissearch=='?id=true') {
+        document.querySelector('.item_price').style.visibility = 'hidden'
+        }
+        </script>
 </head>
 <body>
     <main>
